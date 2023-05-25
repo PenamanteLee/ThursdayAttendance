@@ -1,0 +1,23 @@
+package thurs_Attendance;
+
+public class Vehicle {
+		
+		int ToyotaSpeed = 70;
+		String ToyotaColor = "Black";
+		String ToyotaPrice = "Php. 2, 500, 000.00";
+		
+		int PlaneSpeed = 1000;
+		String PlaneColor = "Gray";
+		String PlanePrice = "Php. 4, 900, 000.00";
+		
+		int YachtSpeed = 50;
+		String YachtColor = "White";
+		String YachtPrice = "Php. 5, 110, 000.00";
+		
+		void Stop() {
+			System.out.println("The vehicle has stopped.");
+		}
+		
+
+	}
+
