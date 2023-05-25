@@ -1,0 +1,52 @@
+package thurs_Attendance;
+
+//This Main class prints out the info's from other classes
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//Prints out from Toyota
+		Toyota_VIOS car = new Toyota_VIOS();
+		
+		System.out.println("Toyota VIOS:");
+		System.out.println("Speed: " + car.ToyotaSpeed + " km/h");
+		System.out.println("Color: " + car.ToyotaColor);
+		System.out.println("Price: " + car.ToyotaPrice);
+		System.out.println("Tire Type: " + car.TireType);
+		
+		car.Drive();
+		car.Stop();
+		
+		System.out.println(" ");
+		
+		//Prints out from the Spy Plane
+		U_2_Spy_Plane plane = new U_2_Spy_Plane();
+		
+		System.out.println("U-2 Spy Plane:");
+		System.out.println("Speed: " + plane.PlaneSpeed + " MPH");
+		System.out.println("Color: " + plane.PlaneColor);
+		System.out.println("Price: " + plane.PlanePrice);
+		System.out.println("Wing Span: " + plane.WingSpan);
+		
+		plane.Fly();
+		plane.Stop();
+		
+		System.out.println(" ");
+		
+		//Prints out from Yacht
+		
+		Fandango_Yacht boat = new Fandango_Yacht();
+		
+		System.out.println("Fandango Yacht:");
+		System.out.println("Speed: " + boat.YachtSpeed + " km/h");
+		System.out.println("Color: " + boat.YachtColor);
+		System.out.println("Price: " + boat.YachtPrice);
+		System.out.println("Main Sail Color:" + boat.MainSailColor);
+		
+		boat.Float();
+		boat.Stop();
+		
+	}
+
+}
