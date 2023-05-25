@@ -1,0 +1,21 @@
+package thurs_Attendance;
+
+//Class that extends from the Vehicle class
+//this class overrides the Stop() method from the Vehicle class
+
+public class Toyota_VIOS extends Vehicle{
+	
+	String TireType = "Off-road tire";
+	
+	void Drive() {
+		System.out.println("Status; The car is moving");
+	}
+	
+	//Here we Override the Stop() method to print out the method which came from the Vehicle class (parent class)
+	
+	@Override
+	void Stop() {
+		super.Stop();
+	}
+
+}
