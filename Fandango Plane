@@ -1,0 +1,21 @@
+package thurs_Attendance;
+
+//Class that extends from the Vehicle class
+//this class overrides the Stop() method from the Vehicle class
+
+public class Fandango_Yacht extends Vehicle{
+	
+	String MainSailColor = "White";
+	
+	void Float() {
+		System.out.println("Status; The boat is sailing.");
+	}
+	
+	//Here we Override the Stop() method to print out the method which came from the Vehicle class (parent class)
+	
+	@Override
+	void Stop() {
+		super.Stop();
+	}
+
+}
